@@ -1,10 +1,10 @@
 #!/bin/bash  
-export UUID=${UUID:-'bc97f674-c578-4940-9234-0a1da46041b9'} # 哪吒v1，在不同的平台需要改UUID，否则会覆盖
+export UUID=${UUID:-'de1f7cfa-fac7-4525-9bc8-76dbe2101198'} # 哪吒v1，在不同的平台需要改UUID，否则会覆盖
 export NEZHA_SERVER=${NEZHA_SERVER:-''}       # v1哪吒填写形式：nezha.abc.com:8008,v0哪吒填写形式：nezha.abc.com
 export NEZHA_PORT=${NEZHA_PORT:-''}           # v1哪吒不要填写这个,v0哪吒agent端口为{443,8443,2053,2083,2087,2096}其中之一时自动开启tls
 export NEZHA_KEY=${NEZHA_KEY:-''}             # v1的NZ_CLIENT_SECRET或v0的agent密钥
-export ARGO_DOMAIN=${ARGO_DOMAIN:-''}         # 固定隧道域名,留空即启用临时隧道
-export ARGO_AUTH=${ARGO_AUTH:-''}             # 固定隧道token或json,留空即启用临时隧道
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'sh.ab66.filegear-sg.me'}         # 固定隧道域名,留空即启用临时隧道
+export ARGO_AUTH=${ARGO_AUTH:-'eyJhIjoiZWU4NWQ5YmQwNTI0OThhNmIwNWY0N2NjZmQ1YjM1MzIiLCJ0IjoiYTA2MDQzZGQtMjg4MS00ZjZhLWE2OWQtYTk0ODAxMGI2ZGU4IiwicyI6IllqTTVZemszWkRrdFptTmpNUzAwTW1KakxUbGpPR1l0TjJZNFlUZ3hZakZrTmpWaSJ9'}             # 固定隧道token或json,留空即启用临时隧道
 export CFIP=${CFIP:-'www.visa.com.tw'}        # argo节点优选域名或优选ip
 export CFPORT=${CFPORT:-'443'}                # argo节点端口 
 export NAME=${NAME:-'Vls'}                    # 节点名称  
